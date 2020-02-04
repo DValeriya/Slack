@@ -1,6 +1,5 @@
 flask
 flask-sqlalchemy
-libpg-dev
 psycopg2-binary
 slackeventsapi
 slackclient
