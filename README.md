@@ -25,11 +25,6 @@ You must install following dependencies:
         
         (venv) $ pip install flask  
         (venv) $ pip install flask-sqlalchemy
-        
-        (venv) $ pip install libpg-dev
-                  OR
-        (venv) $ sudo apt install libpg-dev
-        
         (venv) $ pip install psycopg2-binary
         (venv) $ pip install slackeventsapi
         (venv) $ pip install slackclient
