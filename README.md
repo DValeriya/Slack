@@ -23,12 +23,12 @@
 ### Dependencies
 You must install following dependencies:
         
-        (venv) $ pip install flask  
-        (venv) $ pip install flask-sqlalchemy
+        (venv) $ pip install Flask  
+        (venv) $ pip install Flask-SQLAlchemy
         (venv) $ pip install psycopg2-binary
         (venv) $ pip install slackeventsapi
         (venv) $ pip install slackclient
-        (venv) $ pip install requets
+        (venv) $ pip install requests
  
 ### Environment variables
 Set environment variables like below:
@@ -40,9 +40,7 @@ Set environment variables like below:
         (venv) $ export DB_HOST=" "
         (venv) $ export SLACK_SIGNING_SECRET=" "
         (venv) $ export SLACK_APP_ID=" "
-        (venv) $ export SLACK_BOT_SCOPE=" "
         (venv) $ export SLACK_CLIENT_SECRET=" "
-        (venv) $ export SLACK_ACCESS_TOKEN=" "
         (venv) $ export SLACK_CLIENT_ID=" "
         
 ---
